@@ -8,50 +8,41 @@
 #* You will understand the difference between strings, integers and floating point numbers
 
 
+name = "Bob"
+Name = "Tkljdfgfsd"
+print(Name + name)
 
-myXVAL = 10
-myxval = 7
+myString = "something"
+myInt = 100
+myFloat = 2.5
 
-print(myXVAL)
+#casting example\
+print(myInt/2)
+myNewInt = "100"
+print(int(myNewInt)/2)
 
-name = "Chuck"
-number = 100
-newNumber = "100"
+num1 = input("Please enter a number")
 
-print(number/2)
-#Casting example
-print(int(newNumber)/2)
+print(int(num1) + int(num1))
 
-myFloat = 3.54
+print("My int = " + str(myInt))
 
-num1 = 100
-num2 = 75
-num3 = 967
-
-avg = (num1 + num2 + num3)/3
-
-print(f"Average: {avg}")
-print(avg)
-print("Average ", avg)
-print("Average " + str(avg))
+thing = 500/6
+print(thing)
+print("My result is " + str(thing))
+print("My result is", thing)
+print(f"My result is {thing}") #fstring - {} are for varibles
 
 
-beds = 5
-bath = 1.5
-address = "435 Cool Ln"
-city = "Folsom"
-zip = 95630
-rent = 7000
-
-print(f"House for rent at {address} in {city} ({zip})")
-print(f"\t{beds} bedrooms, {bath} bathrooms")
-print(f"\trent is ${rent}/month")
-
-
+print("First linenSecond line\nThird line")
+print("List header")
+print("\t* Item1")
+print("\t* Item2")
+print("\t* Item3\n\t* Item4\n\t* Item5")
 
 #File path example
 #C:\Users\myname\Documents\OneNote Notebooks
-print("I have a file located at: C:\\Users\\mrJohnson\\Docume...")
+print("C:\\User\\mrJohnson\\Document\\OKDJflsjkdfalksd...")
 
 
 
